@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Contact: Hook Peninsula</title>
+        <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+</head>
+
+<body>
+        <header>
+                <div class="container">
+                        <img src="img/lighthouse.jpg" alt="Hook lighthouse" width="100%" />
+                        <div class="text-block">
+                                <h1>Hook Peninsula</h1>
+                                <h4>Pinnacle of Ireland's Ancient East</h4>
+                        </div>
+                </div>
+
+
+                <div id="navbar">
+                        <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="stay.html">Stay</a></li>
+                                <li><a href="eatanddrink.html">Eat & Drink</a></li>
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="contact.html" class="active">Contact</a></li>
+                        </ul>
+                </div>
+
+
+
+        </header>
+
+        <main> 
+                <div id="twocolumn">
+
+                <div id="eventone">
+                <h1>Contact</h1>
+                <h2>Main Office</h2>
+                <p>
+                                Hook Rural Tourism Ltd.</br>
+                                Duncannon, The Hook Peninsula</br>
+                                New Ross, County Wexford</br>
+                                Ireland</br>
+                                Phone: +353 (0)51 389530</br>
+                                <a href="mailto:info@hooktourism.com">Email: info@hooktourism.com</a>
+                </p>
+                <h2>Tourist Information</h2>
+                <p>
+                                Hook Tourism,</br>
+                                Fethard-on-Sea, The Hook Peninsula,</br>
+                                New Ross, County Wexford,</br>
+                                Ireland</br>
+                                Phone: +353 (0)51 262900</br>
+                                <a href="mailto:Email:office@hooktourism.com">Email: Email:office@hooktourism.com</a>
+                                </p>
+                </div>
+              
+
+                <div id="eventtwo">
+                               
+                        <form class="form-style-6" action="MAILTO:user@website.com" method="GET">
+                                        <h2>General Enquiry Form</h2>
+                                <fieldset>
+                                        
+                                        <label for="name">Name:</label>
+                                        <input required type="text" name="name" id="name">
+                                        <label for="email">Email:</label>
+                                        <input required type="email" name="email" id="email">
+                                        
+                                        <select name="options">
+                                                <option value="Information Request">Information Request</option>
+                                                <option value="Website Changes">Website Changes</option>
+                                                <option value="Event or News">Event or News</option>
+                                                <option value="Other">Other</option>
+                                        </select>
+                                        <label for="subject">Subject:</label>
+                                        <input required type="text" name="subject" id="subject">
+                                        <label for="message">Message:</label>
+                                        <textarea name="message" rows="10" cols="30">Enter your message here</textarea>
+                                        <button onclick="sendMail(); return false">Submit Enquiry Form</button>
+                                </fieldset>
+                                          
+                        </form>
+
+                         
+                </div>
+        </div>
+        </main>
+
+        <footer>
+                &copy; Olivia Flynn (7540-044)
+        </footer>
+        <script src="js/main.js"></script>
+</body>
+
+</html>
